@@ -1,0 +1,9 @@
+name: NewCustomCuiLianPro
+version: '${project.version}'
+main: lvhaoxuan.custom.cuilian.NewCustomCuiLianPro
+api-version: '1.20'
+author: Mcayear
+depend: [LLib]
+softdepend: [AttributePlus, SX-Attribute]
+commands:
+    cuilian:

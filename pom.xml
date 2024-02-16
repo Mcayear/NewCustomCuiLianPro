@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>lvhaoxuan.custom.cuilian</groupId>
+  <artifactId>NewCustomCuiLianPro</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>NewCustomCuiLianPro</name>
+
+  <properties>
+    <java.version>1.8</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <source>${java.version}</source>
+          <target>${java.version}</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.2.4</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
+  </build>
+
+  <repositories>
+      <repository>
+          <id>papermc-repo</id>
+          <url>https://repo.papermc.io/repository/maven-public/</url>
+      </repository>
+      <repository>
+          <id>sonatype</id>
+          <url>https://oss.sonatype.org/content/groups/public/</url>
+      </repository>
+  </repositories>
+
+  <dependencies>
+      <dependency>
+          <groupId>io.papermc.paper</groupId>
+          <artifactId>paper-api</artifactId>
+          <version>1.20.4-R0.1-SNAPSHOT</version>
+          <scope>provided</scope>
+      </dependency>
+      <dependency>
+          <groupId>lvhaoxuan.llib.LLib</groupId>
+          <artifactId>LLib</artifactId>
+          <version>1.0</version>
+          <scope>system</scope>
+          <systemPath>${pom.basedir}/lib/LLib.jar</systemPath>
+      </dependency>
+      <dependency>
+          <groupId>github.saukiya.sxattribute.SXAttribute</groupId>
+          <artifactId>SX-Attribute</artifactId>
+          <version>4.0.0</version>
+          <scope>system</scope>
+          <systemPath>${pom.basedir}/lib/SX-Attribute-4.0.0-SNAPSHOT.jar</systemPath>
+      </dependency>
+      <dependency>
+          <groupId>org.serverct.ersha.taboolib.platform.BukkitPlugin</groupId>
+          <artifactId>AttributePlus</artifactId>
+          <version>3.3.2.1</version>
+          <scope>system</scope>
+          <systemPath>${pom.basedir}/lib/AttributePlus-3.3.2.1_beta2.jar</systemPath>
+      </dependency>
+      <dependency>
+          <groupId>org.openjdk.nashorn</groupId>
+          <artifactId>nashorn-core</artifactId>
+          <version>15.0</version>
+      </dependency>
+
+  </dependencies>
+</project>

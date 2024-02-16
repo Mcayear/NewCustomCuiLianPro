@@ -1,0 +1,18 @@
+MUST_ADD_IN_BAG: "§f[§d淬炼保护符§f]§c请在背包内右键"
+CANCEL_ADD: "§f[§d淬炼保护符§f]§c你取消了本次淬炼保护!"
+CAN_NOT_ADD: "§f[§d淬炼保护符§f]§c这个物品不能够进行淬炼保护."
+ADD_SUCCESS: "§a§l附加淬炼保护成功,§d成功对装备附加:%s"
+ADD_MESSAGE:
+ - "§f[§d淬炼保护符§f]§a你正在使用%s"
+ - "§a按E打开背包，鼠标右键点击一件可淬炼的装备来对它附加淬炼保护"
+ - "§a或者右键点击背包空位来取消本次淬炼保护"
+SUCCESS: "§a§l淬炼成功,§e装备目前为：%s"
+SERVER_SUCCESS: "§6[§6§l恭喜§6]%p§a用%d§a成功将装备淬炼至§6%s"
+CUILIAN_FAIL_PROTECT_RUNE: "§c§l淬炼失败,§e装备目前为：%s§a(使用淬炼保护)§7(降%d星)"
+CUILIAN_FAIL: "§c§l淬炼失败,§e装备目前为：%s§7(降%d星)"
+DELETE_PROTECT_RUNE: "§c§l旧的淬炼保护符已拆除"
+UNDER_LINE: "§c§l§m  §6§l§m  §e§l§m  §a§l§m  §b§l§m  §e§l装备淬炼§b§l§m  §a§l§m  §e§l§m  §6§l§m  §c§l§m  "
+ENABLE_SUIT_EFFECT: "§a你激活了%s§a§l套装效果"
+DISENABLE_SUIT_EFFECT: "§a你失去了%s§a§l套装效果"
+
+    

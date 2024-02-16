@@ -1,0 +1,408 @@
+1:    
+    Lore: 
+        - "§f§l✯一星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e5"
+        Helmet:
+            - "§a物理防御: §e1"
+        Chestplate:
+            - "§a物理防御: §e1"
+        Leggings:
+            - "§a物理防御: §e1"
+        Boots:
+            - "§a物理防御: §e1"
+2:
+    Lore: 
+        - "§f§l✯✯二星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e10"
+        Helmet:
+            - "§a物理防御: §e2"
+        Chestplate:
+            - "§a物理防御: §e2"
+        Leggings:
+            - "§a物理防御: §e2"
+        Boots:
+            - "§a物理防御: §e2"
+3:
+    Lore: 
+        - "§a§l✡三星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e20"
+        Helmet:
+            - "§a物理防御: §e4"
+        Chestplate:
+            - "§a物理防御: §e4"
+        Leggings:
+            - "§a物理防御: §e4"
+        Boots:
+            - "§a物理防御: §e4"
+    ProtectRune:
+        Type: PAPER
+        Data: 0
+        Name: "§a三星淬炼保护"
+        Lore: 
+         - "§e用法：§a打开背包，鼠标右键物品"
+         - "§e作用：§a对装备附加淬炼保护效果"
+         - "§e说明："
+         - "§7  -§a保护装备淬炼失败时不掉星"
+         - "§7  -§c装备低于三星,却有三星保护,则保护不生效."
+         - "§7  -§a三星保护要求装备淬炼星级大于等于三星"
+        AddLore: "§a三星淬炼保护"
+    SuitEffect:
+        Attribute:
+        PotionEffect:
+            - "SPEED 0"
+        Script:
+            - "default.js"
+4:    
+    Lore: 
+        - "§a§l✡✯四星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e25"
+        Helmet:
+            - "§a物理防御: §e5"
+        Chestplate:
+            - "§a物理防御: §e5"
+        Leggings:
+            - "§a物理防御: §e5"
+        Boots:
+            - "§a物理防御: §e5"
+    SuitEffect:
+        Attribute:
+        PotionEffect:
+            - "SPEED 1"
+        Script:
+            - "default.js"
+5:
+    Lore: 
+        - "§a§l✡✯✯五星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e30"
+        Helmet:
+            - "§a物理防御: §e6"
+        Chestplate:
+            - "§a物理防御: §e6"
+        Leggings:
+            - "§a物理防御: §e6"
+        Boots:
+            - "§a物理防御: §e6"
+    SuitEffect:
+        Attribute:
+        PotionEffect:
+            - "SPEED 1"
+        Script:
+            - "default.js"
+6:
+    Lore: 
+        - "§3§l❂六星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e50"
+        Helmet:
+            - "§a物理防御: §e10"
+        Chestplate:
+            - "§a物理防御: §e10"
+        Leggings:
+            - "§a物理防御: §e10"
+        Boots:
+            - "§a物理防御: §e10"
+    ProtectRune:
+        Type: PAPER
+        Data: 0
+        Name: "§a六星淬炼保护"
+        Lore: 
+         - "§e用法：§a打开背包，鼠标右键物品"
+         - "§e作用：§a对装备附加淬炼保护效果"
+         - "§e说明："
+         - "§7  -§a保护装备淬炼失败时不掉星"
+         - "§7  -§c装备低于六星,却有六星保护,则保护不生效."
+         - "§7  -§a六星保护要求装备淬炼星级大于等于六星"
+        AddLore: "§a六星淬炼保护"
+    SuitEffect:
+        Attribute:
+        PotionEffect:
+            - "SPEED 1"
+        Script:
+            - "default.js"
+7:
+    Lore: 
+        - "§3§l❂✯七星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e55"
+        Helmet:
+            - "§a物理防御: §e11"
+        Chestplate:
+            - "§a物理防御: §e11"
+        Leggings:
+            - "§a物理防御: §e11"
+        Boots:
+            - "§a物理防御: §e11"
+    SuitEffect:
+        Attribute:
+        PotionEffect:
+            - "SPEED 2"
+        Script:
+            - "default.js"
+8:
+    Lore: 
+        - "§3§l❂✯✯八星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e60"
+        Helmet:
+            - "§a物理防御: §e12"
+        Chestplate:
+            - "§a物理防御: §e12"
+        Leggings:
+            - "§a物理防御: §e12"
+        Boots:
+            - "§a物理防御: §e12"
+    SuitEffect:
+        Attribute:
+        PotionEffect:
+            - "SPEED 2"
+        Script:
+            - "default.js"
+9:
+    Lore: 
+        - "§5§l❂✡九星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e70"
+        Helmet:
+            - "§a物理防御: §e14"
+        Chestplate:
+            - "§a物理防御: §e14"
+        Leggings:
+            - "§a物理防御: §e14"
+        Boots:
+            - "§a物理防御: §e14"
+    ProtectRune:
+        Type: PAPER
+        Data: 0
+        Name: "§a九星淬炼保护"
+        Lore: 
+         - "§e用法：§a打开背包，鼠标右键物品"
+         - "§e作用：§a对装备附加淬炼保护效果"
+         - "§e说明："
+         - "§7  -§a保护装备淬炼失败时不掉星"
+         - "§7  -§c装备低于九星,却有九星保护,则保护不生效."
+         - "§7  -§a九星保护要求装备淬炼星级大于等于九星"
+        AddLore: "§a九星淬炼保护"
+    SuitEffect:
+        Attribute:
+        PotionEffect:
+            - "SPEED 2"
+        Script:
+            - "default.js"
+10:
+    Lore: 
+        - "§5§l❂✡✯十星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e100"
+        Helmet:
+            - "§a物理防御: §e20"
+        Chestplate:
+            - "§a物理防御: §e20"
+        Leggings:
+            - "§a物理防御: §e20"
+        Boots:
+            - "§a物理防御: §e20"
+    SuitEffect:
+        Attribute:
+        PotionEffect:
+            - "SPEED 3"
+        Script:
+            - "default.js"
+11:
+    Lore: 
+        - "§5§l❂✡✯✯十一星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e110"
+        Helmet:
+            - "§a物理防御: §e22"
+        Chestplate:
+            - "§a物理防御: §e22"
+        Leggings:
+            - "§a物理防御: §e22"
+        Boots:
+            - "§a物理防御: §e22"
+    SuitEffect:
+        Attribute:
+        PotionEffect:
+            - "SPEED 3"
+        Script:
+            - "default.js"
+12:
+    Lore: 
+        - "§6§l❂❂十二星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e150"
+        Helmet:
+            - "§a物理防御: §e30"
+        Chestplate:
+            - "§a物理防御: §e30"
+        Leggings:
+            - "§a物理防御: §e30"
+        Boots:
+            - "§a物理防御: §e30"
+    ProtectRune:
+        Type: PAPER
+        Data: 0
+        Name: "§a十二星淬炼保护"
+        Lore: 
+         - "§e用法：§a打开背包，鼠标右键物品"
+         - "§e作用：§a对装备附加淬炼保护效果"
+         - "§e说明："
+         - "§7  -§a保护装备淬炼失败时不掉星"
+         - "§7  -§c装备低于十二星,却有十二星保护,则保护不生效."
+         - "§7  -§a十二星保护要求装备淬炼星级大于等于十二星"
+        AddLore: "§a十二星淬炼保护"
+    SuitEffect:
+        Attribute:
+        PotionEffect:
+            - "SPEED 3"
+        Script:
+            - "default.js"
+13:
+    Lore: 
+        - "§6§l❂❂✯十三星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e160"
+        Helmet:
+            - "§a物理防御: §e32"
+        Chestplate:
+            - "§a物理防御: §e32"
+        Leggings:
+            - "§a物理防御: §e32"
+        Boots:
+            - "§a物理防御: §e32"
+    SuitEffect:
+        Attribute:
+        PotionEffect:
+            - "SPEED 4"
+        Script:
+            - "default.js"
+14:
+    Lore: 
+        - "§6§l❂❂✯✯十四星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e170"
+        Helmet:
+            - "§a物理防御: §e34"
+        Chestplate:
+            - "§a物理防御: §e34"
+        Leggings:
+            - "§a物理防御: §e34"
+        Boots:
+            - "§a物理防御: §e34"
+    SuitEffect:
+        Attribute:
+        PotionEffect:
+            - "SPEED 4"
+        Script:
+            - "default.js"
+15:
+    Lore: 
+        - "§c§l❂❂✡十五星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e250"
+        Helmet:
+            - "§a物理防御: §e50"
+        Chestplate:
+            - "§a物理防御: §e50"
+        Leggings:
+            - "§a物理防御: §e50"
+        Boots:
+            - "§a物理防御: §e50"
+    ProtectRune:
+        Type: PAPER
+        Data: 0
+        Name: "§a十五星淬炼保护"
+        Lore: 
+         - "§e用法：§a打开背包，鼠标右键物品"
+         - "§e作用：§a对装备附加淬炼保护效果"
+         - "§e说明："
+         - "§7  -§a保护装备淬炼失败时不掉星"
+         - "§7  -§c装备低于十五星,却有十五星保护,则保护不生效."
+         - "§7  -§a十五星保护要求装备淬炼星级大于等于十五星"
+        AddLore: "§a十五星淬炼保护"
+    SuitEffect:
+        Attribute:
+        PotionEffect:
+            - "SPEED 4"
+        Script:
+            - "default.js"
+16:
+    Lore: 
+        - "§c§l❂❂✡✯十六星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e270"
+        Helmet:
+            - "§a物理防御: §e54"
+        Chestplate:
+            - "§a物理防御: §e54"
+        Leggings:
+            - "§a物理防御: §e54"
+        Boots:
+            - "§a物理防御: §e54"
+    SuitEffect:
+        Attribute:
+        PotionEffect:
+            - "SPEED 4"
+        Script:
+            - "default.js"
+17:
+    Lore: 
+        - "§c§l❂❂✡✯✯十七星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e300"
+        Helmet:
+            - "§a物理防御: §e60"
+        Chestplate:
+            - "§a物理防御: §e60"
+        Leggings:
+            - "§a物理防御: §e60"
+        Boots:
+            - "§a物理防御: §e60"
+    SuitEffect:
+        Attribute:
+        PotionEffect:
+            - "SPEED 4"
+        Script:
+            - "default.js"
+18:
+    Lore: 
+        - "§4§l❂❂❂十八星淬炼"
+    Attribute:
+        Hand:
+            - "§a物理伤害: §e400"
+        Helmet:
+            - "§a物理防御: §e80"
+        Chestplate:
+            - "§a物理防御: §e80"
+        Leggings:
+            - "§a物理防御: §e80"
+        Boots:
+            - "§a物理防御: §e80"
+    SuitEffect:
+        Attribute:
+        PotionEffect:
+            - "SPEED 4"
+        Script:
+            - "default.js"
