@@ -9,7 +9,7 @@ import javax.script.Invocable;
 import javax.script.ScriptContext;
 import javax.script.ScriptEngine;
 import javax.script.ScriptException;
-import org.openjdk.nashorn.api.scripting.*;
+import de.eldoria.nashornjs.js.api.scripting.*;
 import lvhaoxuan.custom.cuilian.api.CuiLianAPI;
 import lvhaoxuan.custom.cuilian.loader.Loader;
 import lvhaoxuan.custom.cuilian.object.Level;
