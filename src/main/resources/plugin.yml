@@ -3,7 +3,7 @@ version: '${project.version}'
 main: lvhaoxuan.custom.cuilian.NewCustomCuiLianPro
 api-version: '1.20'
 author: Mcayear
-depend: [LLib]
+depend: [LLib, NashornJs]
 softdepend: [AttributePlus, SX-Attribute]
 commands:
     cuilian:

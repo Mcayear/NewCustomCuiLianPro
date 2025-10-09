@@ -3,7 +3,6 @@ package lvhaoxuan.custom.cuilian.loader;
 import java.io.*;
 import java.util.logging.Logger;
 import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
 import org.jetbrains.annotations.Nullable;
@@ -136,15 +135,13 @@ public class Loader {
     public static @Nullable ScriptEngine loadScript(File file) {
         if (file.exists()) {
             try {
-                ScriptEngineManager manager = new ScriptEngineManager();
-                ScriptEngine engine = manager.getEngineByName("javascript");
-                if (engine == null) {
-                    throw new RuntimeException("Failed to initialize JavaScript engine");
-                }
+                ScriptEngine engine = new de.eldoria.nashornjs.js.api.scripting.NashornScriptEngineFactory().getScriptEngine();
                 engine.eval(new FileReader(file));
                 return engine;
-            } catch (ScriptException | IOException ex) {
+            } catch (FileNotFoundException ex) {
                 Logger.getLogger(Loader.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            } catch (ScriptException e) {
+                Logger.getLogger(Loader.class.getName()).log(java.util.logging.Level.SEVERE, null, e);
             }
         } else {
             Logger.getLogger(Loader.class.getName()).log(java.util.logging.Level.SEVERE, "Script file does not exist: " + file.getAbsolutePath());
